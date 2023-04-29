@@ -21,3 +21,27 @@ body{
   font-family: 'Times New Roman', Times, serif;
 }
 
+.rotate-custom{
+  transform: rotate(0.20turn);
+  
+}
+
+.shadow-custom{
+  box-shadow: .5px .5px 5px 0px rgba(0, 0, 0, 0.137);
+}
+
+
+.shadow-top{
+  box-shadow: .0px -1.5px 3px -1px rgba(0, 0, 0, 0.144) ;
+}
+
+.emoji-size{
+  height: 25px;
+  width: 25px;
+}
+
+
+
+.h-90per{
+  height: calc(100% - 56px)
+}

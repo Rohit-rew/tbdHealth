@@ -13,8 +13,8 @@ export default function NotificationView() {
 
         <div className="flex self-center gap-4">
 
-          <button className="text-green-800 underline underline-offset-4 text-xs font-bold">NO, LATER</button>
-          <button className="bg-green-800 rounded-full text-white px-20 py-4 text-xs font-semibold">VIEW DETAILS</button>
+          <button className="text-green-700 underline underline-offset-4 text-xs font-bold">NO, LATER</button>
+          <button className="bg-green-700 rounded-full text-white px-20 py-4 text-xs font-semibold">VIEW DETAILS</button>
 
         </div>
     </div>
