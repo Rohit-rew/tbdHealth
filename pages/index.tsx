@@ -1,10 +1,19 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from "@/components/Header";
+import DetailView from "@/components/detailView";
+import NotificationView from "@/components/notificationView";
 
 export default function Home() {
   return (
-    <h1>Hello there</h1>
+    <main className="h-screen overflow-hidden">
+
+
+      <Header />
+
+      <div className="w-full h-full  flex items-center justify-center">
+        <DetailView/>
+      </div>
+      {/* <NotificationView/> */}
+    </main>
+
   )
 }
