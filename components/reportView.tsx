@@ -109,7 +109,7 @@ export default function ReportView({ closeReportView }: propT) {
               Gonorrhea: Signs & Symptoms
             </h3>
 
-            <div className="w-full bg-red-100 aspect-video">// space for video</div>
+            <div className="w-full bg-red-100 aspect-video">space for video</div>
 
             <p className="text-xs text-gray-400">
               Gonorrhea which is a sexually transmitted disease caused by a
